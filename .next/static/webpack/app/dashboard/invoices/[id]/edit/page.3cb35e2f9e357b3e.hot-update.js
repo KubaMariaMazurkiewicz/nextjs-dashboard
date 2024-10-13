@@ -1,0 +1,123 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/dashboard/invoices/[id]/edit/page",{
+
+/***/ "(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// This file must be bundled in the app's client layer, it shouldn't be directly\n// imported by the server.\n\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"createServerReference\", ({\n    enumerable: true,\n    get: function() {\n        return createServerReference;\n    }\n}));\nconst _appcallserver = __webpack_require__(/*! next/dist/client/app-call-server */ \"(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/client/app-call-server.js\");\nfunction createServerReference(id) {\n    // Since we're using the Edge build of Flight client for SSR [1], here we need to\n    // also use the same Edge build to create the reference. For the client bundle,\n    // we use the default and let Webpack to resolve it to the correct version.\n    // 1: https://github.com/vercel/next.js/blob/16eb80b0b0be13f04a6407943664b5efd8f3d7d0/packages/next/src/server/app-render/use-flight-response.tsx#L24-L26\n    const { createServerReference: createServerReferenceImpl } =  false ? 0 : __webpack_require__(/*! react-server-dom-webpack/client */ \"(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/compiled/react-server-dom-webpack/client.js\");\n    return createServerReferenceImpl(id, _appcallserver.callServer);\n}\n\n//# sourceMappingURL=action-client-wrapper.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy8ucG5wbS9uZXh0QDE0LjIuMTRfcmVhY3QtZG9tQDE5LjAuMC1yYy1mMzhjMjJiMjQ0LTIwMjQwNzA0X3JlYWN0QDE5LjAuMC1yYy1mMzhjMjJiMjQ0LTIwMjQwNzA0X19yZWFfbWxydjI0cnpkd210dnV6N2xtdnZlbWMzcGUvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtbG9hZGVyL2FjdGlvbi1jbGllbnQtd3JhcHBlci5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ2E7QUFDYiw4Q0FBNkM7QUFDN0M7QUFDQSxDQUFDLEVBQUM7QUFDRix5REFBd0Q7QUFDeEQ7QUFDQTtBQUNBO0FBQ0E7QUFDQSxDQUFDLEVBQUM7QUFDRix1QkFBdUIsbUJBQU8sQ0FBQyw0UEFBa0M7QUFDakU7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFlBQVksbURBQW1ELEVBQUUsTUFBMEIsR0FBRyxDQUErQyxHQUFHLG1CQUFPLENBQUMsNlFBQWlDO0FBQ3pMO0FBQ0E7O0FBRUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vbm9kZV9tb2R1bGVzLy5wbnBtL25leHRAMTQuMi4xNF9yZWFjdC1kb21AMTkuMC4wLXJjLWYzOGMyMmIyNDQtMjAyNDA3MDRfcmVhY3RAMTkuMC4wLXJjLWYzOGMyMmIyNDQtMjAyNDA3MDRfX3JlYV9tbHJ2MjRyemR3bXR2dXo3bG12dmVtYzNwZS9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1sb2FkZXIvYWN0aW9uLWNsaWVudC13cmFwcGVyLmpzP2JkMmEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gVGhpcyBmaWxlIG11c3QgYmUgYnVuZGxlZCBpbiB0aGUgYXBwJ3MgY2xpZW50IGxheWVyLCBpdCBzaG91bGRuJ3QgYmUgZGlyZWN0bHlcbi8vIGltcG9ydGVkIGJ5IHRoZSBzZXJ2ZXIuXG5cInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwge1xuICAgIHZhbHVlOiB0cnVlXG59KTtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcImNyZWF0ZVNlcnZlclJlZmVyZW5jZVwiLCB7XG4gICAgZW51bWVyYWJsZTogdHJ1ZSxcbiAgICBnZXQ6IGZ1bmN0aW9uKCkge1xuICAgICAgICByZXR1cm4gY3JlYXRlU2VydmVyUmVmZXJlbmNlO1xuICAgIH1cbn0pO1xuY29uc3QgX2FwcGNhbGxzZXJ2ZXIgPSByZXF1aXJlKFwibmV4dC9kaXN0L2NsaWVudC9hcHAtY2FsbC1zZXJ2ZXJcIik7XG5mdW5jdGlvbiBjcmVhdGVTZXJ2ZXJSZWZlcmVuY2UoaWQpIHtcbiAgICAvLyBTaW5jZSB3ZSdyZSB1c2luZyB0aGUgRWRnZSBidWlsZCBvZiBGbGlnaHQgY2xpZW50IGZvciBTU1IgWzFdLCBoZXJlIHdlIG5lZWQgdG9cbiAgICAvLyBhbHNvIHVzZSB0aGUgc2FtZSBFZGdlIGJ1aWxkIHRvIGNyZWF0ZSB0aGUgcmVmZXJlbmNlLiBGb3IgdGhlIGNsaWVudCBidW5kbGUsXG4gICAgLy8gd2UgdXNlIHRoZSBkZWZhdWx0IGFuZCBsZXQgV2VicGFjayB0byByZXNvbHZlIGl0IHRvIHRoZSBjb3JyZWN0IHZlcnNpb24uXG4gICAgLy8gMTogaHR0cHM6Ly9naXRodWIuY29tL3ZlcmNlbC9uZXh0LmpzL2Jsb2IvMTZlYjgwYjBiMGJlMTNmMDRhNjQwNzk0MzY2NGI1ZWZkOGYzZDdkMC9wYWNrYWdlcy9uZXh0L3NyYy9zZXJ2ZXIvYXBwLXJlbmRlci91c2UtZmxpZ2h0LXJlc3BvbnNlLnRzeCNMMjQtTDI2XG4gICAgY29uc3QgeyBjcmVhdGVTZXJ2ZXJSZWZlcmVuY2U6IGNyZWF0ZVNlcnZlclJlZmVyZW5jZUltcGwgfSA9ICEhcHJvY2Vzcy5lbnYuTkVYVF9SVU5USU1FID8gcmVxdWlyZShcInJlYWN0LXNlcnZlci1kb20td2VicGFjay9jbGllbnQuZWRnZVwiKSA6IHJlcXVpcmUoXCJyZWFjdC1zZXJ2ZXItZG9tLXdlYnBhY2svY2xpZW50XCIpO1xuICAgIHJldHVybiBjcmVhdGVTZXJ2ZXJSZWZlcmVuY2VJbXBsKGlkLCBfYXBwY2FsbHNlcnZlci5jYWxsU2VydmVyKTtcbn1cblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9YWN0aW9uLWNsaWVudC13cmFwcGVyLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./app/lib/actions.ts":
+/*!****************************!*\
+  !*** ./app/lib/actions.ts ***!
+  \****************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createInvoice: function() { return /* binding */ createInvoice; }
+/* harmony export */ });
+/* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/client/app-call-server */ "(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/client/app-call-server.js");
+/* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-client-wrapper */ "(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper.js");
+
+
+
+function __build_action__(action, args) {
+  return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
+}
+
+/* __next_internal_action_entry_do_not_use__ {"0ebcfabe2571a05e76c43905618abe2b659a079c":"createInvoice"} */ var createInvoice = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("0ebcfabe2571a05e76c43905618abe2b659a079c");
+
+
+
+
+;
+    // Wrapped in an IIFE to avoid polluting the global scope
+    ;
+    (function () {
+        var _a, _b;
+        // Legacy CSS implementations will `eval` browser code in a Node.js context
+        // to extract CSS. For backwards compatibility, we need to check we're in a
+        // browser context before continuing.
+        if (typeof self !== 'undefined' &&
+            // AMP / No-JS mode does not inject these helpers:
+            '$RefreshHelpers$' in self) {
+            // @ts-ignore __webpack_module__ is global
+            var currentExports = module.exports;
+            // @ts-ignore __webpack_module__ is global
+            var prevSignature = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevSignature) !== null && _b !== void 0 ? _b : null;
+            // This cannot happen in MainTemplate because the exports mismatch between
+            // templating and execution.
+            self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);
+            // A module can be accepted automatically based on its exports, e.g. when
+            // it is a Refresh Boundary.
+            if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
+                // Save the previous exports signature on update so we can compare the boundary
+                // signatures. We avoid saving exports themselves since it causes memory leaks (https://github.com/vercel/next.js/pull/53797)
+                module.hot.dispose(function (data) {
+                    data.prevSignature =
+                        self.$RefreshHelpers$.getRefreshBoundarySignature(currentExports);
+                });
+                // Unconditionally accept an update to this module, we'll check if it's
+                // still a Refresh Boundary later.
+                // @ts-ignore importMeta is replaced in the loader
+                module.hot.accept();
+                // This field is set when the previous version of this module was a
+                // Refresh Boundary, letting us know we need to check for invalidation or
+                // enqueue an update.
+                if (prevSignature !== null) {
+                    // A boundary can become ineligible if its exports are incompatible
+                    // with the previous exports.
+                    //
+                    // For example, if you add/remove/change exports, we'll want to
+                    // re-execute the importing modules, and force those components to
+                    // re-render. Similarly, if you convert a class component to a
+                    // function, we want to invalidate the boundary.
+                    if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevSignature, self.$RefreshHelpers$.getRefreshBoundarySignature(currentExports))) {
+                        module.hot.invalidate();
+                    }
+                    else {
+                        self.$RefreshHelpers$.scheduleUpdate();
+                    }
+                }
+            }
+            else {
+                // Since we just executed the code for the module, it's possible that the
+                // new exports made it ineligible for being a boundary.
+                // We only care about the case when we were _previously_ a boundary,
+                // because we already accepted this update (accidental side effect).
+                var isNoLongerABoundary = prevSignature !== null;
+                if (isNoLongerABoundary) {
+                    module.hot.invalidate();
+                }
+            }
+        }
+    })();
+
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./app/ui/invoices/edit-form.tsx":
+/*!***************************************!*\
+  !*** ./app/ui/invoices/edit-form.tsx ***!
+  \***************************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": function() { return /* binding */ EditInvoiceForm; }\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(app-pages-browser)/./node_modules/.pnpm/next@14.2.14_react-dom@19.0.0-rc-f38c22b244-20240704_react@19.0.0-rc-f38c22b244-20240704__rea_mlrv24rzdwmtvuz7lmvvemc3pe/node_modules/next/dist/compiled/react/jsx-dev-runtime.js\");\n/* harmony import */ var _app_lib_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/app/lib/actions */ \"(app-pages-browser)/./app/lib/actions.ts\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\nfunction EditInvoiceForm(param) {\n    let { invoice, customers } = param;\n    const updateInvoiceWithId = _app_lib_actions__WEBPACK_IMPORTED_MODULE_1__.updateInvoice.bind(null, invoice.id);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n        action: updateInvoiceWithId,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n            type: \"hidden\",\n            name: \"id\",\n            value: invoice.id\n        }, void 0, false, {\n            fileName: \"/Users/kubamazurkiewicz/apps/learning/nextjs_tutorial/nextjs-dashboard/app/ui/invoices/edit-form.tsx\",\n            lineNumber: 25,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/kubamazurkiewicz/apps/learning/nextjs_tutorial/nextjs-dashboard/app/ui/invoices/edit-form.tsx\",\n        lineNumber: 24,\n        columnNumber: 5\n    }, this);\n}\n_c = EditInvoiceForm;\nvar _c;\n$RefreshReg$(_c, \"EditInvoiceForm\");\n\n\n;\n    // Wrapped in an IIFE to avoid polluting the global scope\n    ;\n    (function () {\n        var _a, _b;\n        // Legacy CSS implementations will `eval` browser code in a Node.js context\n        // to extract CSS. For backwards compatibility, we need to check we're in a\n        // browser context before continuing.\n        if (typeof self !== 'undefined' &&\n            // AMP / No-JS mode does not inject these helpers:\n            '$RefreshHelpers$' in self) {\n            // @ts-ignore __webpack_module__ is global\n            var currentExports = module.exports;\n            // @ts-ignore __webpack_module__ is global\n            var prevSignature = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevSignature) !== null && _b !== void 0 ? _b : null;\n            // This cannot happen in MainTemplate because the exports mismatch between\n            // templating and execution.\n            self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);\n            // A module can be accepted automatically based on its exports, e.g. when\n            // it is a Refresh Boundary.\n            if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n                // Save the previous exports signature on update so we can compare the boundary\n                // signatures. We avoid saving exports themselves since it causes memory leaks (https://github.com/vercel/next.js/pull/53797)\n                module.hot.dispose(function (data) {\n                    data.prevSignature =\n                        self.$RefreshHelpers$.getRefreshBoundarySignature(currentExports);\n                });\n                // Unconditionally accept an update to this module, we'll check if it's\n                // still a Refresh Boundary later.\n                // @ts-ignore importMeta is replaced in the loader\n                module.hot.accept();\n                // This field is set when the previous version of this module was a\n                // Refresh Boundary, letting us know we need to check for invalidation or\n                // enqueue an update.\n                if (prevSignature !== null) {\n                    // A boundary can become ineligible if its exports are incompatible\n                    // with the previous exports.\n                    //\n                    // For example, if you add/remove/change exports, we'll want to\n                    // re-execute the importing modules, and force those components to\n                    // re-render. Similarly, if you convert a class component to a\n                    // function, we want to invalidate the boundary.\n                    if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevSignature, self.$RefreshHelpers$.getRefreshBoundarySignature(currentExports))) {\n                        module.hot.invalidate();\n                    }\n                    else {\n                        self.$RefreshHelpers$.scheduleUpdate();\n                    }\n                }\n            }\n            else {\n                // Since we just executed the code for the module, it's possible that the\n                // new exports made it ineligible for being a boundary.\n                // We only care about the case when we were _previously_ a boundary,\n                // because we already accepted this update (accidental side effect).\n                var isNoLongerABoundary = prevSignature !== null;\n                if (isNoLongerABoundary) {\n                    module.hot.invalidate();\n                }\n            }\n        }\n    })();\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC91aS9pbnZvaWNlcy9lZGl0LWZvcm0udHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFXa0Q7QUFFbkMsU0FBU0MsZ0JBQWdCLEtBTXZDO1FBTnVDLEVBQ3RDQyxPQUFPLEVBQ1BDLFNBQVMsRUFJVixHQU51QztJQU90QyxNQUFNQyxzQkFBc0JKLGdFQUFrQixDQUFDLE1BQU1FLFFBQVFJLEVBQUU7SUFFL0QscUJBQ0UsOERBQUNDO1FBQUtDLFFBQVFKO2tCQUNaLDRFQUFDSztZQUFNQyxNQUFLO1lBQVNDLE1BQUs7WUFBS0MsT0FBT1YsUUFBUUksRUFBRTs7Ozs7Ozs7Ozs7QUFHdEQ7S0Fkd0JMIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL2FwcC91aS9pbnZvaWNlcy9lZGl0LWZvcm0udHN4Pzc2ZmYiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnO1xuXG5pbXBvcnQgeyBDdXN0b21lckZpZWxkLCBJbnZvaWNlRm9ybSB9IGZyb20gJ0AvYXBwL2xpYi9kZWZpbml0aW9ucyc7XG5pbXBvcnQge1xuICBDaGVja0ljb24sXG4gIENsb2NrSWNvbixcbiAgQ3VycmVuY3lEb2xsYXJJY29uLFxuICBVc2VyQ2lyY2xlSWNvbixcbn0gZnJvbSAnQGhlcm9pY29ucy9yZWFjdC8yNC9vdXRsaW5lJztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgeyBCdXR0b24gfSBmcm9tICdAL2FwcC91aS9idXR0b24nO1xuaW1wb3J0IHsgdXBkYXRlSW52b2ljZSB9IGZyb20gJ0AvYXBwL2xpYi9hY3Rpb25zJztcbiBcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEVkaXRJbnZvaWNlRm9ybSh7XG4gIGludm9pY2UsXG4gIGN1c3RvbWVycyxcbn06IHtcbiAgaW52b2ljZTogSW52b2ljZUZvcm07XG4gIGN1c3RvbWVyczogQ3VzdG9tZXJGaWVsZFtdO1xufSkge1xuICBjb25zdCB1cGRhdGVJbnZvaWNlV2l0aElkID0gdXBkYXRlSW52b2ljZS5iaW5kKG51bGwsIGludm9pY2UuaWQpO1xuIFxuICByZXR1cm4gKFxuICAgIDxmb3JtIGFjdGlvbj17dXBkYXRlSW52b2ljZVdpdGhJZH0+XG4gICAgICA8aW5wdXQgdHlwZT1cImhpZGRlblwiIG5hbWU9XCJpZFwiIHZhbHVlPXtpbnZvaWNlLmlkfSAvPlxuICAgIDwvZm9ybT5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJ1cGRhdGVJbnZvaWNlIiwiRWRpdEludm9pY2VGb3JtIiwiaW52b2ljZSIsImN1c3RvbWVycyIsInVwZGF0ZUludm9pY2VXaXRoSWQiLCJiaW5kIiwiaWQiLCJmb3JtIiwiYWN0aW9uIiwiaW5wdXQiLCJ0eXBlIiwibmFtZSIsInZhbHVlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/ui/invoices/edit-form.tsx\n"));
+
+/***/ })
+
+});
